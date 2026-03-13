@@ -3,84 +3,121 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>(주)피플인피플 - 가장 빠르고 정확한 분양 인사이트</title>
+    <title>(주)피플인피플 | 프리미엄 부동산 컨설팅</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
     <style>
         :root {
-            --navy: #0A192F;
-            --gold: #D4AF37;
-            --white: #FFFFFF;
-            --gray: #F5F5F7;
+            --primary-navy: #0a192f;
+            --accent-gold: #c5a059;
+            --clean-white: #ffffff;
+            --light-gray: #f8f9fa;
         }
-        body { font-family: 'Pretendard', sans-serif; margin: 0; padding: 0; color: #333; }
-        header { background: var(--navy); padding: 20px 50px; color: var(--white); display: flex; justify-content: space-between; align-items: center; }
-        header .logo { font-size: 24px; font-weight: bold; color: var(--gold); }
-        .hero { height: 100vh; background: linear-gradient(rgba(10, 25, 47, 0.7), rgba(10, 25, 47, 0.7)), url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2070&auto=format&fit=crop') center/cover; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; color: var(--white); }
-        .hero h1 { font-size: 3rem; margin-bottom: 10px; }
-        .hero p { font-size: 1.2rem; margin-bottom: 30px; letter-spacing: 2px; }
-        .btn-gold { background: var(--gold); color: var(--navy); padding: 15px 30px; text-decoration: none; font-weight: bold; border-radius: 5px; font-size: 1.1rem; }
-        .section { padding: 80px 50px; text-align: center; }
-        .bg-gray { background: var(--gray); }
-        .bg-navy { background: var(--navy); color: var(--white); }
-        .motto { display: flex; justify-content: space-around; margin-top: 40px; }
-        .motto-item { flex: 1; padding: 20px; }
-        .motto-item h3 { color: var(--navy); }
-        .bg-navy .motto-item h3 { color: var(--gold); }
-        footer { background: #000; color: #888; padding: 40px 50px; text-align: center; font-size: 0.9rem; }
+        body { font-family: 'Noto Sans KR', sans-serif; background-color: var(--clean-white); color: #333; }
+        h1, h2, .gold-text { font-family: 'Playfair Display', serif; color: var(--accent-gold); }
+        
+        /* Navbar */
+        .navbar { background: rgba(10, 25, 47, 0.95); backdrop-filter: blur(10px); padding: 20px 0; }
+        .navbar-brand { font-weight: 700; color: var(--clean-white) !important; font-size: 1.5rem; }
+        .nav-link { color: var(--clean-white) !important; margin-left: 30px; font-weight: 400; }
+
+        /* Hero Section */
+        .hero { 
+            height: 100vh;
+            background: linear-gradient(rgba(10, 25, 47, 0.7), rgba(10, 25, 47, 0.7)), url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2070&auto=format&fit=crop') no-repeat center center/cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: var(--clean-white);
+        }
+        .hero h1 { font-size: 4rem; margin-bottom: 20px; animation: fadeInUp 1s ease; }
+        .hero p { font-size: 1.2rem; letter-spacing: 3px; color: var(--accent-gold); text-transform: uppercase; }
+
+        /* About Section */
+        .section-padding { padding: 100px 0; }
+        .value-card { border: none; padding: 40px; background: var(--light-gray); border-radius: 10px; transition: 0.3s; }
+        .value-card:hover { transform: translateY(-10px); box-shadow: 0 20px 40px rgba(0,0,0,0.1); }
+        .value-card h4 { color: var(--primary-navy); font-weight: 700; margin-bottom: 15px; }
+
+        /* Track Record */
+        .bg-navy { background-color: var(--primary-navy); color: var(--clean-white); }
+        .stat-number { font-size: 3.5rem; font-weight: 700; color: var(--accent-gold); }
+
+        /* Footer */
+        footer { background: #050c18; color: #888; padding: 60px 0; font-size: 0.9rem; }
+        
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
     </style>
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">(주)피플인피플</a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-link">회사소개</li>
+                    <li class="nav-link">사업영역</li>
+                    <li class="nav-link">포트폴리오</li>
+                    <li class="nav-link">뉴스레터</li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-    <header>
-        <div class="logo">(주)피플인피플</div>
-        <nav>
-            회사소개 | 사업영역 | 포트폴리오 | 인사이트 뉴스레터 | 상담문의
-        </nav>
+    <header class="hero">
+        <div class="container">
+            <p>WE SALES TOMORROW ABOUT PEOPLE IN PEOPLE</p>
+            <h1>가장 빠르고 정확한<br>분양 인사이트</h1>
+            <button class="btn btn-outline-light btn-lg mt-4 px-5 py-3">프리미엄 뉴스레터 구독</button>
+        </div>
     </header>
 
-    <section class="hero">
-        <h1>가장 빠르고 정확한 분양 인사이트</h1>
-        <p>WE SALES TOMORROW ABOUT PEOPLE IN PEOPLE</p>
-        <a href="#newsletter" class="btn-gold">프리미엄 부동산 뉴스레터 구독하기</a>
-    </section>
-
-    <section class="section">
-        <h2>고객의 중심에서 기대를 초월하는 기업</h2>
-        <p style="max-width: 800px; margin: 20px auto; line-height: 1.6;">20년간 축적된 현장 감각과 전문 지식, 그리고 실무 경험을 바탕으로 고객 만족 실현을 약속합니다. 단순한 계약 관계를 넘어선 파트너로서, 부동산 개발 컨설팅의 선두주자 역량을 증명하겠습니다. <br><br><strong>- 대표이사 김성룡 -</strong></p>
-        
-        <div class="motto">
-            <div class="motto-item">
-                <h3>Do it Until completed</h3>
-                <p>초기 대행부터 완료 시까지 책임 완수</p>
+    <section class="section-padding container text-center">
+        <h2 class="mb-5">고객의 중심에서 기대를 초월하는 기업</h2>
+        <p class="lead mb-5 text-secondary">20년간 축적된 현장 감각과 전문 지식으로 (주)피플인피플만의 역량을 증명하겠습니다.</p>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="value-card">
+                    <h4>Do it Until completed</h4>
+                    <p>초기 대행부터 사업 완료 시까지 책임 완수</p>
+                </div>
             </div>
-            <div class="motto-item">
-                <h3>Do it Now!</h3>
-                <p>20년 노하우의 특급 영업팀 즉각 투입</p>
+            <div class="col-md-4">
+                <div class="value-card">
+                    <h4>Do it Now!</h4>
+                    <p>20년 노하우의 특급 영업팀 즉각 투입</p>
+                </div>
             </div>
-            <div class="motto-item">
-                <h3>Do it Without fail!</h3>
-                <p>실패한 현장도 살려내는 강력한 시스템</p>
+            <div class="col-md-4">
+                <div class="value-card">
+                    <h4>Do it Without fail!</h4>
+                    <p>실패한 현장도 성공으로 이끄는 시스템</p>
+                </div>
             </div>
         </div>
     </section>
 
-    <section class="section bg-navy">
-        <h2 style="color: var(--gold);">숫자로 증명하는 20년의 신뢰</h2>
-        <h1 style="font-size: 3.5rem; margin: 20px 0;">6,182 세대</h1>
-        <p>창사 이래 총 16개 단지 성공적 분양 완수 (김해 푸르지오 하이앤드 2차 100% 분양 등)</p>
+    <section class="section-padding bg-navy text-center">
+        <div class="container">
+            <h2 class="mb-5 text-white">숫자로 증명하는 20년의 신뢰</h2>
+            <div class="row">
+                <div class="col-12">
+                    <div class="stat-number">6,182</div>
+                    <p class="lead">총 16개 단지 성공적 분양 완수</p>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section id="newsletter" class="section bg-gray">
-        <h2>이재명 정부 부동산 정책 핵심 분석 및 대응 전략 (창간호 발송 예정)</h2>
-        <p>불확실한 시장, 피플인피플의 20년 인사이트로 성공 투자 포트폴리오를 재편하십시오.</p>
-        <br>
-        <input type="email" placeholder="이메일 주소를 입력하세요" style="padding: 15px; width: 300px; border: 1px solid #ccc; border-radius: 5px;">
-        <button class="btn-gold" style="border: none; cursor: pointer;">인사이트 구독하기</button>
-    </section>
-
-    <footer>
-        <p>부산광역시 수영구 광안해변로 263, 1612호 (민락동, 파로스오피스텔) | Tel: 051.505.5656 | Fax: 051.980.5656</p>
-        <p>&copy; 2025 People in People Co., Ltd. All rights reserved.</p>
+    <footer class="text-center">
+        <div class="container">
+            <p>주소: 부산광역시 수영구 광안해변로 263, 1612호 | Tel: 051.505.5656</p>
+            <p>Copyright © 2025 People in People Co., Ltd. All rights reserved.</p>
+        </div>
     </footer>
-
 </body>
 </html>
