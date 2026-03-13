@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "skills": {
+    "github": {
+      "version": "1.0.0",
+      "installedAt": 1773384068909
+    },
+    "himalaya": {
+      "version": "1.0.0",
+      "installedAt": 1773384126792
+    }
+  }
+}

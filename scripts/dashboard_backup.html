@@ -1,0 +1,126 @@
+
+    <!DOCTYPE html>
+    <html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>박비서 통합 대시보드</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <style>
+            body { background-color: #f8f9fa; font-family: 'Pretendard', sans-serif; padding-top: 20px; }
+            .card { border: none; border-radius: 15px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 20px; }
+            .header-section { background: linear-gradient(135deg, #0d6efd 0%, #00d4ff 100%); color: white; padding: 30px 15px; border-radius: 20px; margin-bottom: 30px; }
+            pre { background: #f1f1f1; padding: 15px; border-radius: 10px; font-size: 0.85rem; white-space: pre-wrap; word-break: break-all; }
+            .status-badge { font-size: 0.75rem; padding: 5px 12px; border-radius: 20px; background: rgba(255,255,255,0.2); }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header-section text-center">
+                <h1 class="h3">📊 피플 AI 통합 대시보드</h1>
+                <p class="mb-2">보스 전용 스마트 오피스 관제 센터</p>
+                <span class="status-badge">마지막 갱신: 2026-03-13 12:23:34 (KST)</span>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="card p-3">
+                        <h5 class="mb-3">📬 최근 메일 브리핑</h5>
+                        <pre>[2026-03-13 03:23:34] 📬 통합 우편함 스캔을 시작합니다...
+
+==================================================
+🛡️ [Gmail] pipin201305@gmail.com 스캔 중...
+📭 Gmail에는 최근 24시간 내에 새로 도착한 안 읽은 메일이 없습니다.
+
+✅ 모든 메일 브리핑이 완료되었습니다.
+</pre>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card p-3">
+                        <h5 class="mb-3">📅 주요 일정 (통합)</h5>
+                        <pre>[2026-03-13 12:23:34 KST] 📅 통합 구글 캘린더 스캔을 시작합니다...
+
+==================================================
+🛡️ [pipin201305] 캘린더 스캔 중...
+📭 pipin201305 캘린더에 등록된 일정이 없습니다.
+
+==================================================
+🛡️ [ksl21c] 캘린더 스캔 중...
+✅ 1개의 다가오는 일정이 확인되었습니다.
+
+==================================================
+🛡️ [Outlook] 캘린더 스캔 중...
+✅ 4개의 다가오는 일정이 확인되었습니다.
+
+==================================================
+🛡️ [Outlook2] 캘린더 스캔 중...
+✅ 3개의 다가오는 일정이 확인되었습니다.
+
+==================================================
+📢 [통합 브리핑] 총 8개의 다가오는 일정 (가장 가까운 5개)
+==================================================
+📌 [일정] 인투알 김진근 팀장 점심 (출처: Outlook2)
+🕒 [시간] 2026-03-17 11:30 (KST)
+--------------------------------------------------
+📌 [일정] 중운 불자 데이타 센터 기공식 (출처: Outlook2)
+🕒 [시간] 2026-03-25 (종일) (KST)
+--------------------------------------------------
+📌 [일정] 치과 임플란트 예약 (출처: ksl21c)
+🕒 [시간] 2026-04-21 14:00 (KST)
+--------------------------------------------------
+📌 [일정] KT 부가서비스 해지 (출처: Outlook2)
+🕒 [시간] 2026-07-01 (종일) (KST)
+--------------------------------------------------
+📌 [일정] 지아 생일 (출처: Outlook)
+🕒 [시간] 2026-07-18 (종일) (KST)
+--------------------------------------------------
+
+✅ 통합 캘린더 브리핑이 완료되었습니다.
+</pre>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-12">
+                    <div class="card p-3">
+                        <h5 class="mb-3">📰 경제/부동산 주요 뉴스</h5>
+                        <pre>[2026-03-13 12:23:36 KST] 📰 경제/부동산 주요 뉴스 스캔 중...
+
+==================================================
+📈 [오늘의 경제/부동산 헤드라인 Top 5]
+==================================================
+🗞️ 1. "양도세 중과 후에도 매물 나올 것…집값 반등 쉽지 않아" (v.daum.net)
+🔗 https://news.google.com/rss/articles/CBMiT0FVX3lxTE10NzJScWkzdW01VnJ0ZGFHZEFBbjZJbDE1Z0NXQ254ZmpMVDhQNmRfR1pQT3RZZmM0b3lPRGlLT1RrOXZYVzAzbEJiLVpfc00?oc=5
+--------------------------------------------------
+🗞️ 2. [전문가 기고] 미국도 K자형 경제가 부동산에 영향을 미치고 있다 (아주경제)
+🔗 https://news.google.com/rss/articles/CBMiWEFVX3lxTFBMdmF4NDZwS0J6RnZId3B1anhyemI2OWpSMUIwV2gwNUZqdDB4ZzRkc1l6dDlPM2h1M1JtS3ZTeHhraTRFYkE3ZnV6U0ZVWmhjRnU2N0VGeDnSAVhBVV95cUxQTHZheDQ2cEtCekZ2SHdwdWp4cnpiNjlqUjFCMFdoMDVGanQweGc0ZHNZenQ5TzNodTNSbUt2U3h4a2k0RWJBN2Z1elNGVVpoY0Z1NjdFRng5?oc=5
+--------------------------------------------------
+🗞️ 3. 국토부, 올해 아파트 공시가격 열람 18일부터 진행 (BBS불교방송)
+🔗 https://news.google.com/rss/articles/CBMia0FVX3lxTE54NmR6Wlhrczc5WHBHRXNkNjk1ZElTbUItSDRMd3E3Z0twRWlYeXFJZlQ4U3d5b1ZBRmJaaTE1R1ViVDNzYlZxeGc4Z3lsZ3hsUDkxSmozRzJkR3VrbXA2SjZaaUYwX0w0UUJN?oc=5
+--------------------------------------------------
+🗞️ 4. 이재명 정부의 부동산 정책! (브랜드경제신문)
+🔗 https://news.google.com/rss/articles/CBMiTEFVX3lxTFBsaUh1VDdnNEJNc2pqTmZuTTltVno1aTdXYVhkcFQtaHVSakpra2F1ZnpjMWxhTWktSExJXy1KTXhKTGlQZmhjM3hGM00?oc=5
+--------------------------------------------------
+🗞️ 5. ‘교통·개발’ 훈풍에 위례신도시 집값 ‘들썩’ (헤럴드경제)
+🔗 https://news.google.com/rss/articles/CBMiV0FVX3lxTFBpT25VWUV1clhldjhkcmNzZW1zMUN4Z21GUHR5M0FSOXpHbDkzMGluNU1tY2diUG9SUE4yOTRDMV93RDRhVE5aNkE0Ri1Rby1obWhEWWV5cw?oc=5
+--------------------------------------------------
+
+✅ 뉴스 브리핑이 완료되었습니다.
+</pre>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-3 text-muted pb-4" style="font-size: 0.8rem;">
+                <p>© 2026 박비서 (Park Assistant)</p>
+            </div>
+        </div>
+        <script>
+            // 5분마다 자동 새로고침
+            setTimeout(function() { location.reload(); }, 300000);
+        </script>
+    </body>
+    </html>
+    

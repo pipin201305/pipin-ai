@@ -1,0 +1,28 @@
+{
+  "accounts": [
+    {
+      "type": "Gmail",
+      "email": "pipin201305@gmail.com",
+      "password": "pvqivgksutarzvbw",
+      "server": "imap.gmail.com"
+    }
+  ],
+  "calendars": [
+    {
+      "name": "pipin201305",
+      "url": "https://calendar.google.com/calendar/ical/pipin201305%40gmail.com/private-fcc09178d406fa217f3acff473742608/basic.ics"
+    },
+    {
+      "name": "ksl21c",
+      "url": "https://calendar.google.com/calendar/ical/ksl21c%40gmail.com/private-7f3a8c90735941c9d960d64bfa9969ec/basic.ics"
+    },
+    {
+      "name": "Outlook",
+      "url": "https://outlook.live.com/owa/calendar/d697c155-1666-458c-b7b6-f6f5b0325c92/ccb63a1f-24fe-44b1-9208-729bbb392172/cid-57BBCE565BCB4C83/calendar.ics"
+    },
+    {
+      "name": "Outlook2",
+      "url": "https://outlook.live.com/owa/calendar/023aefda-3cfb-4c7e-a598-313163beabda/27733239-93c5-44ed-afbf-e42185ce71bb/cid-DBF184F0801C1675/calendar.ics"
+    }
+  ]
+}
