@@ -1,5 +1,5 @@
 # 📊 박비서 통합 대시보드
-**최종 업데이트:** 2026-03-13 15:42:51 (KST)
+**최종 업데이트:** 2026-03-13 16:42:52 (KST)
 
 > 💡 *OpenClaw Web UI에서 이 문서를 클릭하시면 깔끔하게 렌더링된 화면으로 보실 수 있습니다. (박비서가 백그라운드에서 주기적으로 최신화합니다.)*
 
@@ -7,18 +7,23 @@
 
 ## 📬 1. 우편함 브리핑 (최근 24시간)
 ```text
-[2026-03-13 06:42:51] 📬 통합 우편함 스캔을 시작합니다...
+[2026-03-13 07:42:52] 📬 통합 우편함 스캔을 시작합니다...
 
 ==================================================
 🛡️ [Gmail] pipin201305@gmail.com 스캔 중...
-📭 Gmail에는 최근 24시간 내에 새로 도착한 안 읽은 메일이 없습니다.
+총 1개의 안 읽은 새 메일이 있습니다.
+
+📌 [보낸사람] GitHub <noreply@github.com>
+📝 [제목] [GitHub] A personal access token (classic) has been added to your
+ account
+--------------------------------------------------
 
 ✅ 모든 메일 브리핑이 완료되었습니다.
 ```
 
 ## 📅 2. 다가오는 주요 일정
 ```text
-[2026-03-13 15:42:51 KST] 📅 통합 구글 캘린더 스캔을 시작합니다...
+[2026-03-13 16:42:53 KST] 📅 통합 구글 캘린더 스캔을 시작합니다...
 
 ==================================================
 🛡️ [pipin201305] 캘린더 스캔 중...
@@ -60,7 +65,7 @@
 
 ## 📰 3. 오늘의 경제/부동산 뉴스 (Top 5)
 ```text
-[2026-03-13 15:42:53 KST] 📰 경제/부동산 주요 뉴스 스캔 중...
+[2026-03-13 16:42:55 KST] 📰 경제/부동산 주요 뉴스 스캔 중...
 
 ==================================================
 📈 [오늘의 경제/부동산 헤드라인 Top 5]
@@ -68,17 +73,17 @@
 🗞️ 1. 與 "부동산 안정세 공고화… 李 정부 옳은 길 가고 있어" (v.daum.net)
 🔗 https://news.google.com/rss/articles/CBMiT0FVX3lxTE8yajZFLUxfNkFTcVExOF8zRGVHUWw2Y3dIYmNYbEFsZ19VbDYtUjVqQ1NhY1NnbFBmcEN2ZXNJZ3hkWGxHbm45eXRsakRqMGs?oc=5
 --------------------------------------------------
-🗞️ 2. [아유경제_부동산] AI로 교통ㆍ환경ㆍ안전 도시문제 해결… 스마트도시 조성사업 추진 (아유경제)
+🗞️ 2. 전국 아파트 매매가격 상승폭 둔화, 전셋값은 상승 [부동산 정책 브리핑:복테크] 알파경제 tv (알파경제)
+🔗 https://news.google.com/rss/articles/CBMiXkFVX3lxTE1mMU5CbDAwSEtzZ1JabTI1Rmp5MlVneGU4SkFOUU5ZLWdQRnA3bkRhS0NZY0kwZG5YTlZLQXV2MWZlRGxVMkI3Qlc4RWxMckw5VDlqNnZFNUtBMnJTd3fSAW5BVV95cUxNZlg2bWRvY3llT3ZUX3hGWG1CektHalAzVUdXUDNEZHNuMkJzSTJJdk1rbmcyNmRDRkY4RlVGMnZmRzlXamYzTTdtelBpTmRZMHV5Ni1hM21pV3ZwaFBzR1hHTm1OZGxvWmJvNXhsQQ?oc=5
+--------------------------------------------------
+🗞️ 3. 규제 강화에 버팀목 전세대출 반 토막…저소득 신혼부부 대출 80%↓ (한국일보)
+🔗 https://news.google.com/rss/articles/CBMic0FVX3lxTE81UllZX1RJai1yVkxGcy1CTzNyaWJRQ3NlcEZ4OHQ3UFZka25odllsb1hhV1JTX2RUTnJWRUZHakVoaU81T3VLV2t2LXI3eVNNSEJpS1MwNU1nT0xCY2s4XzJ1Q05yVXZkdWNoOURwVGd3QlnSAXNBVV95cUxPNVJZWV9USWotclZMRnMtQk8zcmliUUNzZXBGeDh0N1BWZGtuaHZZbG9YYVdSU19kVE5yVkVGR2pFaGlPNU91S1drdi1yN3lTTUhCaUtTMDVNZ09MQmNrOF8ydUNOclV2ZHVjaDlEcFRnd0JZ?oc=5
+--------------------------------------------------
+🗞️ 4. [아유경제_부동산] AI로 교통ㆍ환경ㆍ안전 도시문제 해결… 스마트도시 조성사업 추진 (아유경제)
 🔗 https://news.google.com/rss/articles/CBMiaEFVX3lxTE8tcGJZcnZfSUpsYmE3alRUOFN4dTBjSEZEdVh6VFRpbE5XYXhOUUg0TWZ1amE3Q3dlb0pDZGtScXZQQmFEWTFyTURZa1U5OXA2ZlBRMU5kWXlJNlJqZV9oREYyZWJMenZE?oc=5
 --------------------------------------------------
-🗞️ 3. 가계부채 88%대…4년 만에 10%p 낮아졌지만 부동산·수도권 쏠림 여전 (뉴시안)
+🗞️ 5. 가계부채 88%대…4년 만에 10%p 낮아졌지만 부동산·수도권 쏠림 여전 (뉴시안)
 🔗 https://news.google.com/rss/articles/CBMiakFVX3lxTE5XYlpvQXlxbW54ekxXa2xVTE11Yk50d2k0RkJQZ081TE9vRzBGdWdUZm9NYjRtMkd3Q2J2TU5TY1hOOVlraDNkU19GZVYyTlBBZ20wd0xIUWZJcHZXeDl4QjFLNUlBT0dzTFHSAW5BVV95cUxPQURqSmotUFN2NUhkeUpBRGJqMm5JTGpJR1BOVF9ETU9MWUhVWHNzb0dTQXJJQlktNUFmUEYxLWUweEVSeEtjMWRnbm95VWJIcHRQRThPUFc5Z0pVQmk3YWF6OWJZanVpR0pJTDhHUQ?oc=5
---------------------------------------------------
-🗞️ 4. [전문가 기고] 미국도 K자형 경제가 부동산에 영향을 미치고 있다 (아주경제)
-🔗 https://news.google.com/rss/articles/CBMiWEFVX3lxTFBMdmF4NDZwS0J6RnZId3B1anhyemI2OWpSMUIwV2gwNUZqdDB4ZzRkc1l6dDlPM2h1M1JtS3ZTeHhraTRFYkE3ZnV6U0ZVWmhjRnU2N0VGeDnSAVhBVV95cUxQTHZheDQ2cEtCekZ2SHdwdWp4cnpiNjlqUjFCMFdoMDVGanQweGc0ZHNZenQ5TzNodTNSbUt2U3h4a2k0RWJBN2Z1elNGVVpoY0Z1NjdFRng5?oc=5
---------------------------------------------------
-🗞️ 5. 국토부, 올해 아파트 공시가격 열람 18일부터 진행 (BBS불교방송)
-🔗 https://news.google.com/rss/articles/CBMia0FVX3lxTE54NmR6Wlhrczc5WHBHRXNkNjk1ZElTbUItSDRMd3E3Z0twRWlYeXFJZlQ4U3d5b1ZBRmJaaTE1R1ViVDNzYlZxeGc4Z3lsZ3hsUDkxSmozRzJkR3VrbXA2SjZaaUYwX0w0UUJN?oc=5
 --------------------------------------------------
 
 ✅ 뉴스 브리핑이 완료되었습니다.
